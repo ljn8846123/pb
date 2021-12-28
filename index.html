@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pb</title>
+    <!-- 파비콘 -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/icon">
+     <!-- swiper cssc cdn 연결 -->
+     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <!-- css연결 -->
+     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <!-- 제이쿼리 라이브러리 연결 -->
+    <script src="js/jquery-3.6.0.js"></script>
+    <!-- swiper js cdn 연결 -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!-- js 연결 -->
+    <script src="js/pb.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <!-- 로고 -->
+           <div class="logo">
+               <a href="index.html">
+                   <img src="img/logo.png" alt="로고">
+               </a>
+           </div>
+           <!-- 1차메뉴 -->
+           <nav>
+                <ul>
+                    <li><a href="#">PB매거진</a></li>
+                    <li><a href="#">PB스토리</a></li>
+                    <li>
+                        <a href="#">PB제품</a>
+                        <!-- 2차메뉴 -->
+                         <div class="sub">
+                            <ul>
+                                <li>
+                                    <ul>
+                                        <li><a href="#">전체</a></li>
+                                        <li><a href="#">브래드</a></li>
+                                        <li><a href="#">케이크</a></li>
+                                        <li><a href="#">샌드위치/샐러드</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <ul>
+                                        <li><a href="#">선물</a></li>
+                                        <li><a href="#">디저트/스낵</a></li>
+                                        <li><a href="#">음료/아이스</a></li>
+                                        <li><a href="#">산편식</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <ul>
+                                        <li><img src="img/menu_img.png" alt="sub_img"></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div> 
+                    </li>
+                    <li><a href="#">PB프로모션</a></li>
+                    <li><a href="#">PB스토어</a></li>
+                </ul>
+           </nav>
+           <!-- 로고인, 회원가입, 고객센터 -->
+           <div class="header_icon">
+               <ul>
+                   <li><a href="#">로그인</a></li>
+                   <li><a href="#">회원가입</a></li>
+                   <li><a href="#">고객센터</a></li>
+               </ul>
+           </div>
+        </header>
+        <section class="s1">
+            <div class="visual">
+                <div class="visual_bg">
+                    <div class="v1 first">
+                        <div class="v1_img"></div>
+                        <div class="bg_color"></div>
+                    </div>
+                    <div class="v2">
+                        <div class="v2_img"></div>
+                        <div class="bg_color"></div>
+                    </div>
+                    <div class="v3">
+                        <div class="v3_img"></div>
+                        <div class="bg_color"></div>
+                    </div>
+                    <div class="v4 last">
+                        <div class="v4_img"></div>
+                        <div class="bg_color"></div>
+                    </div>
+                </div>
+                <div class="visual_des">
+                    <div class="v1 des">
+                        <!-- 마우스오버 했을때 반투명 -->
+                         <div class="des_txt">
+                             <hr>
+                             <p>브레드</p>
+                         </div>
+                    </div>
+                    <div class="v2 des">
+                         <!-- 마우스오버 했을때 반투명 -->
+                         <div class="des_txt">
+                            <hr>
+                            <p>케이크</p>
+                        </div>  
+                    </div>
+                    <div class="v3 des">
+                         <!-- 마우스오버 했을때 반투명 -->
+                         <div class="des_txt">
+                            <hr>
+                            <p>디저트</p>
+                        </div>  
+                    </div>
+                    <div class="v4 des">
+                         <!-- 마우스오버 했을때 반투명 -->
+                         <div class="des_txt">
+                            <hr>
+                            <p>샐러드</p>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="s2">
+            <div class="center">
+                <div class="title">
+                     <div class="txt_bg"></div>
+                     <h1>PB 매거진</h1>
+                </div>
+                <div class="swiper mySwiper1 best">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide s1">
+                            <div class="slide_des">
+                                <h1>무안 햇양파</h1>
+                                <p>무안 햇양파와 함께한 우리 모두가 행복한 상생<br>프로젝트</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide s2">
+                            <div class="slide_des">
+                                <h1>논산딸기</h1>
+                                <p>논산딸기와 함께한 우리 모두가 행복한 상생<br>프로젝트</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide s3">
+                            <div class="slide_des">
+                                <h1>풍기 인삼</h1>
+                                <p>풍기 인삼과 함께한 우리 모두가 행복한 상생<br>프로젝트</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide s4">
+                            <div class="slide_des">
+                                <h1>제주도 구좌당근</h1>
+                                <p>구좌당근과 함께한 우리 모두가 행복한 상생<br>프로젝트</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next">
+                        <img src="img/btn_02.png" alt="next">
+                    </div>
+                    <div class="swiper-button-prev">
+                        <img src="img/btn_01.png" alt="prev">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="s3">
+            <div class="center">
+                <div class="title">
+                    <div class="txt_bg"></div>
+                    <h1>PB 제품</h1>
+                </div>
+                <!-- 탭메뉴 -->
+                <div class="tab">
+                    <div class="tab_title">
+                        <ul>
+                            <li><a href="#" class="active">전체</a></li>
+                            <li><a href="#">브렌드</a></li>
+                            <li><a href="#">디저트</a></li>
+                            <li><a href="#">케이크</a></li>
+                            <li><a href="#">샌드위치/샐러드</a></li>
+                            <li><a href="#">음료수/아이스</a></li>
+                        </ul>
+                    </div>
+                    <div class="tab_con">
+                        <div class="s3_01">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                       <div class="tab_img t1">
+                                      </div>
+                                       <div class="tab_txt ">
+                                            <p>모닝토스트</p>
+                                            <img src="img/buy.png" alt="buy">
+                                       </div> 
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        <div class="tab_img t2">
+                                        </div>
+                                        <div class="tab_txt ">
+                                             <p>클라우드 티라미수</p>
+                                             <img src="img/buy.png" alt="buy">
+                                        </div> 
+                                     </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        <div class="tab_img t3">
+                                        </div>
+                                        <div class="tab_txt ">
+                                             <p>크리스피오트 샐러드</p>
+                                             <img src="img/buy.png" alt="buy">
+                                        </div> 
+                                     </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="s3_02">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                       <div class="tab_img t4">
+                                       </div>
+                                       <div class="tab_txt ">
+                                            <p>월클 토종효모 곡물식빵</p>
+                                            <img src="img/buy.png" alt="buy">
+                                       </div> 
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        <div class="tab_img t5">
+                                        </div>
+                                        <div class="tab_txt ">
+                                             <p>밤식빵</p>
+                                             <img src="img/buy.png" alt="buy">
+                                        </div> 
+                                     </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        <div class="tab_img t6">
+                                        </div>
+                                        <div class="tab_txt ">
+                                             <p>치즈소시지페스츄리</p>
+                                             <img src="img/buy.png" alt="buy">
+                                        </div> 
+                                     </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="s3_03">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                       <div class="tab_img t7">
+                                       </div>
+                                       <div class="tab_txt ">
+                                            <p>핑크솔티드 카라멜마카롱</p>
+                                            <img src="img/buy.png" alt="buy">
+                                       </div> 
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        <div class="tab_img t8">
+                                        </div>
+                                        <div class="tab_txt ">
+                                             <p>사르르 초코타르트</p>
+                                             <img src="img/buy.png" alt="buy">
+                                        </div> 
+                                     </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        <div class="tab_img t9">
+                                        </div>
+                                        <div class="tab_txt ">
+                                             <p>뉴욕치즈타르트</p>
+                                             <img src="img/buy.png" alt="buy">
+                                        </div> 
+                                     </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="s3_04">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                       <div class="tab_img t10">
+                                       </div>
+                                       <div class="tab_txt ">
+                                            <p>클래식 모카 케이크</p>
+                                            <img src="img/buy.png" alt="buy">
+                                       </div> 
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        <div class="tab_img t11">
+                                        </div>
+                                        <div class="tab_txt ">
+                                             <p>카페모카 케이크</p>
+                                             <img src="img/buy.png" alt="buy">
+                                        </div> 
+                                     </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        <div class="tab_img t12">
+                                        </div>
+                                        <div class="tab_txt ">
+                                             <p>고구마반 생크림반 케이크</p>
+                                             <img src="img/buy.png" alt="buy">
+                                        </div> 
+                                     </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="s3_05">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                       <div class="tab_img t13">
+                                       </div>
+                                       <div class="tab_txt ">
+                                            <p>델리셔스 불고기<br>크리스피오트 샐러드</p>
+                                            <img src="img/buy.png" alt="buy">
+                                       </div> 
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        <div class="tab_img t14">
+                                        </div>
+                                        <div class="tab_txt ">
+                                             <p>델리셔스 쉬림프<br>퀴노아 샐러드</p>
+                                             <img src="img/buy.png" alt="buy">
+                                        </div> 
+                                     </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        <div class="tab_img t15">
+                                        </div>
+                                        <div class="tab_txt ">
+                                             <p>델리셔스 시저치킨<br>렌틸콩 샐러드</p>
+                                             <img src="img/buy.png" alt="buy">
+                                        </div> 
+                                     </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="s3_06">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                       <div class="tab_img t16">
+                                       </div>
+                                       <div class="tab_txt ">
+                                            <p>보툰블록 네오</p>
+                                            <img src="img/buy.png" alt="buy">
+                                       </div> 
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        <div class="tab_img t17">
+                                        </div>
+                                        <div class="tab_txt ">
+                                             <p>보툰블록 어피치</p>
+                                             <img src="img/buy.png" alt="buy">
+                                        </div> 
+                                     </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        <div class="tab_img t18">
+                                        </div>
+                                        <div class="tab_txt ">
+                                             <p>보툰블록 라이언</p>
+                                             <img src="img/buy.png" alt="buy">
+                                        </div> 
+                                     </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div><!--tab end-->
+                </div>
+                <div class="view_btn">
+                    <a href="#">VIEW</a>
+                </div>
+            </div>
+        </section>
+        <section class="s4">
+            <div class="center">
+                <div class="s4_left">
+                    <div class="s4_tit">
+                        <h1>PB 프로모션</h1>
+                        <div class="h_bg"></div>
+                    </div>
+                    <div class="gallery">
+                        <div class="swiper mySwiper2">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide g1">
+                                </div>
+                                <div class="swiper-slide g2">
+                                </div>
+                                <div class="swiper-slide g3">
+                                </div>  <!--</div 라고 씀...오타 수정-->
+                                <div class="swiper-slide g4">
+                                </div>    <!--</div 라고 씀...오타 수정-->
+                                <div class="swiper-slide g5">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next2">
+                            <img src="img/right_b.png" alt="next">
+                        </div>
+                        <div class="swiper-button-prev2">
+                            <img src="img/left_b.png" alt="prev">
+                        </div>                            
+                    </div>                    
+                </div> <!--s4_left-->  
+                <div class="s4_right">
+                    <div class="swiper mySwiper3">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide g1">
+                                <a href="#"><h3>01</h3></a>
+                            </div>
+                            <div class="swiper-slide g2">
+                                <a href="#"><h3>02</h3></a>
+                            </div>
+                            <div class="swiper-slide g3">
+                                <a href="#"><h3>03</h3></a>
+                            </div>
+                            <div class="swiper-slide g4">
+                                <a href="#"><h3>04</h3></a>
+                            </div>
+                            <div class="swiper-slide g5">
+                                <a href="#"><h3>05</h3></a>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--s4_right-->             
+            </div><!--center-->
+        </section>
+        <section class="s5">
+            <div class="center">
+                <div class="title">
+                    <div class="txt_bg"></div>
+                    <h1>PB 스토리</h1>
+                </div>
+                <div class="event">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="img/V_1.jpg" alt="V_1">
+                                <p>마남과 함께하는 오싹달콤<br>
+                                    2021 파바 할로윈!<br>
+                                    <span>2021-11-10</span>
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/V_2.jpg" alt="V_2">
+                                <p>용디가 전여친을 잡으며 남긴 말은？<br>
+                                    파리바게뜨 X 요리용디 8번째 만남!<br>
+                                    <span>2021-11-10</span>
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/V_3.jpg" alt="V_3">
+                                <p>세 남자의 잊지 못할 ‘밤’ 이야기!<br>
+                                    미공개편<br>
+                                    <span>2021-11-10</span>
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/V_4.jpg" alt="V_4">
+                                <p>파리바게뜨에 배유람 떴다?<br>
+                                    아시아퀴진과 함께하는 방구석 세계여행!<br>
+                                    <span>2021-11-10</span>
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <footer>
+           <div class="top_footer">
+               <div class="center">
+                    <div class="user">
+                        <ul>
+                            <li><a href="#">브랜드소개</a></li>
+                            <li><a href="#">창업안내</a></li>
+                            <li><a href="#">개인희망사전등록</a></li>
+                            <li><a href="#">윤리신고센터</a></li>
+                            <li><a href="#">채용</a></li>
+                        </ul>
+                    </div>
+                    <div class="sns">
+                        <ul>
+                            <li><a href="#"><img src="img/fb.png" alt="fb"></a></li>
+                            <li><a href="#"><img src="img/ins.png" alt="ins"></a></li>
+                            <li><a href="#"><img src="img/youtube.png" alt="youtube"></a></li>
+                        </ul>
+                    </div>
+               </div>
+           </div><!--top_footer-->
+           <div class="bottom_footer">
+                <div class="center">
+                    <div class="addr">
+                        <address>
+                            고객센터<br>
+                            <span>080-731-2027</span><br>
+                            평일 09:00 ~ 17:00(점심12:00~13:00)<br><br>
+                            <a href="#">고개칭찬</a> 
+                        </address>
+                        <p>
+                            All Rights Reserved © PARIS BAGUETTE, PARIS CROISSANT CO., LTD. 경기도 성남시 중원구 상대원동 사기막골로 31번길 18 (주) 파리크라상
+                        </p>
+                    </div>
+                    <div class="family">
+                        <div class="family_title">
+                            <a href="#">Brand Sites<span></span></a>
+                        </div>
+                        <div class="family_list">
+                            <ul>
+                                <li>
+                                    <a href="#">파리크라상</a>
+                                    <ul class="sub_list">
+                                        <li><a href="#"> 파리크라상</a></li>
+                                        <li><a href="#"> 파스쿠찌</a></li>
+                                        <li><a href="#"> 파리바게뜨 중국</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">비알코리아(주)</a>
+                                    <ul class="sub_list">
+                                        <li><a href="#"> 베스킨라빈스</a></li>
+                                        <li><a href="#"> 던킨도너츠</a></li>
+                                        </ul>
+                                </li>
+                                <li>
+                                    <a href="#">기타</a>
+                                    <ul class="sub_list">
+                                        <li><a href="#">(주)샤니</a></li>
+                                        <li><a href="#">(주)삼립식품</a></li>
+                                        <li><a href="#">해피포인트</a></li>
+                                        <li><a href="#">SPC외식브랜드</a></li>
+                                        <li><a href="#">디퀸즈케이터링</a></li>
+                                        </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div><!--bottom_footer-->
+        </footer>
+            <!-- top버튼 -->
+         <div class="top">TOP</div>
+        </div>
+
+        <!--visual 아코디언 메뉴 제이쿼리 코드 -->
+        <script src="https://code.jquery.com/jquery-1.11.0.js"></script>
+    <script>
+        // 버전이 다른 2개의 제이쿼리를 사용하는 경우 제이쿼리의 충돌을 막기 위해서 제이쿼리를 다시 정의함 $j=jQuery
+        var $j = $.noConflict();
+        $j(document).ready(function(){
+            // pdf_fix()함수 호출
+        pdt_fix();
+        //menuWidthSet()함수 호출
+        menuWidthSet();
+        // .visual_des의 직속자식객체 div에 마우스오버 이벤트 설정
+        $j('.visual_des > div').hover( function (){
+            //.s1객체의 높이값을 _height변수에 저장
+            var _height = $j('.s1').height();
+            // $j(this): 마우스오버이벤트가 발생한 객체를 가리킴(.visual_des>div)
+            // m_width_over함수 호출하면서 .visual_des>div객체를 매개변수에 전달
+            m_width_over( $j(this) );
+            // 만약 마우스오버한 객체가 v1이거나,또는 v4라면
+            if ( $j(this).hasClass('v1') || $j(this).hasClass('v4') )
+            {
+                // v1또는 v4영역의 가로길니 30%로 늘림
+                // clearQueue()는 큐 메모리를 청소하라는 메서드
+                $j(this).clearQueue().animate({'width':'30%'});
+            }
+            // .vesual_dee함수 호출라면서 .visual_des>div객체를 매개변수에 전달
+        }, function (){
+            m_width_out( $j(this) );
+            // 만약 마우스 아웃한 객체가 v1또는 v4라면
+            if ( $j(this).hasClass('v1') || $j(this).hasClass('v4') )
+            {    
+                // v1또는 v4영역의 가로길이를 25%로 줄임
+                $j(this).clearQueue().animate({'width':'25%'});
+            }
+        });
+        // pdt_fix함수 선언
+        function pdt_fix(){
+            // .s1의 높이값 *0,166-49를 계산하여 _mgb변수에 저장
+            var _mgb = $j('.s1').height() * 0.166-49;
+            // .s1의 높이값*0.108를 계산하여 _mgb2변수에 저장
+            var _mgb2 = $j('.s1').height() * 0.108;
+             // .s1의 높이값을 _box변수에 저장
+            var _box = $j('.s1').height() ; //* 0.042
+            // .visual_des영역의 제목(h1)의 왼쪽 여백값 지정
+            var _boxWidth = $j('.visual .v2 p').width();
+            $j('.visual_des .des_txt').css('margin-left','3vw');
+        }
+        // 변수선언
+        var _defaultWidth;
+        var _defaultHeight;
+        var _defaultGap;
+
+        // menuWidthSet함수 선언
+        function menuWidthSet(){
+            // .s1영역의 가로 길이를 4로 나눈 값을 _defaultWgith변수에 저장
+            _defaultWidth = Math.round($j('.s1').width() / 4);
+            // .s1의 자식객체(.v1,v2,v3,v4)끼리 겸치는 영역을 계산하여 _defaultGap변수에 저장
+            _defaultGap = Math.round($j('.s1').width() * 0.026);
+            // .s1영역의 높이값을 _defaultHeight변수에 저장
+            _defaultHeight = $j('.s1').height();
+            // 첫번째 영역(v1)과 네번째 영역(v4)가 아닌 div객체들에 대햇 clip 마스크를 사각형 영역으로 설정함.
+            $j('.visual_bg > div').not('.first, .last').css({'clip':'rect(0px, '+ (_defaultWidth + 100) +'px, '+_defaultHeight + 'px, ' + _defaultGap + 'px)'});
+             // 첫번째 영역(v1)에 대해서 clip마스크를 사각형 영역으로 설정함
+            $j('.visual_bg > div.first').css({'clip':'rect(0px, '+ (_defaultWidth+_defaultGap*2) +'px, '+_defaultHeight + 'px, ' +  '0px)'});
+             // 네번째 영역(v4)에 대해서 clip 마스크를 사각형 영역으로 설정함
+            $j('.visual_bg > div.last').css({'clip':'rect(0px, '+ (_defaultWidth+_defaultGap*2) +'px, '+_defaultHeight + 'px, ' + (_defaultGap*2) +'px)'});
+        }
+
+        // m_width_over함수 선언,$this:매개변수(.visual_des)>div객체를 전달받음
+        function m_width_over( $this ){
+            // 마우스 오버된 객체의 인덱스 번호를 _currIndex변수에 저장
+            var _currIndex = $this.index();
+            //v1~v4영역끼기 겹침는 부분을 2배로 설정
+            var _gapX2 = _defaultGap*2;
+            // v1~V4영역끼리 겸치는 부분을 3배로 설정
+            var _gapX3 = _defaultGap*3;
+            // 인덱스 번호 0이라면 (V1영역에 마우스오바했을 때)
+            if ( $this.index() == 0 )
+            {    
+                // 마우스 오버된 V1영역의 가로길이가 넓어짐(왼쪽 기준)
+                $j('.visual_bg .v1').clearQueue().animate({'clip' : 'rect(0px, '+ ( _defaultWidth + _gapX2 ) +'px, '+_defaultHeight + 'px, 0px)'});
+                // V2영역의 가로길이는 조금 좁아짐
+                $j('.visual_bg .v2').clearQueue().animate({'clip' : 'rect(0px, '+ ( _defaultWidth + _defaultGap + 1 ) +'px, '+_defaultHeight + 'px, ' + (_gapX3-1) +'px)'});
+                // V1영역에 마우스 오버했을 때 자식객체 H1과 P태그의 위치값 변경
+                // $j('.visial_des .v1 p').css('margin-left','3vw');
+                // $j('.visial_des .v2 p').css('margin-left','5vw');
+                // $j('.visial_des .v1 hr').css('margin-left','3vw');
+                // $j('.visial_des .v2 hr').css('margin-left','5vw');
+                
+                // // 원래 화살표 이미지
+                // $j('.visual_des .arrow img').attr('src','img/arrow.png');
+                // // VI영역의 화살표 이미지 변경
+                // $j('.visual_des .v1 .arrow img').attr('src','img/arrow2.png');
+                // // v1영역에 마우스 오버했을 때 자식객체 h1과 P태그의 위치값 변경
+                $j('.visual_des .v1 .des_txt').clearQueue().animate({'margin-left':'3vw'});
+                $j('.visual_des .v2 .des_txt').clearQueue().animate({'margin-left':'7vw'});
+                
+                // $j('.visial_des .des_txt>p').css('margin-left','5vw');
+                // $j('.visial_des .v1 .des_txt>p').css('margin-left','3vw');
+                // 반투명 사각형
+                $j('.bg_color').hide();
+                $j('.visual_bg .v1 .bg_color').fadeIn();
+            }
+             // 인덱스 번호 1이라면 (V2영역에 마우스오바했을 때)
+            else if ( $this.index() == 1 )
+              
+            {     // v1 영역의 가로길이 좁아짐
+                $j('.visual_bg .v1').clearQueue().animate({'clip' : 'rect(0px, '+ _defaultWidth +'px, '+_defaultHeight + 'px, 0px)'});
+                  // v2 영역의 가로길이 좁아짐
+                $j('.visual_bg .v2').clearQueue().animate({'clip' : 'rect(0px, '+ ( _defaultWidth + _gapX2 ) +'px, '+_defaultHeight + 'px, 0px)'});
+                  // v3영역의 가로길이 좁아짐
+                $j('.visual_bg > .v3').clearQueue().animate({'clip' : 'rect(0px, '+ ( _defaultWidth + _defaultGap ) +'px, '+_defaultHeight + 'px, ' + (_gapX2-1) +'px)'});
+                
+                // v1의 h1왼쪽여백 줄임
+                $j('.visual_des .v2 .des_txt').clearQueue().animate({'margin-left':'5vw'});
+                 // v1의 h1왼쪽여백 늘임
+                 $j('.visual_des .v3 .des_txt').clearQueue().animate({'margin-left':'7vw'});
+                
+                //$j('.visual_des .arrow img').attr('src','img/arrow.png');
+                //$j('.visual_des .v2 .arrow img').attr('src','img/arrow2.png');
+                // 반투명 사각형
+                $j('.bg_color').hide();
+                $j('.visual_bg .v2 .bg_color').fadeIn();
+            }
+             // 인덱스 번호 2이라면 (V3영역에 마우스오바했을 때)
+            else if ( $this.index() == 2 )
+            {
+                $j('.visual_bg .v2').clearQueue().animate({'clip' : 'rect(0px, '+  _defaultWidth  +'px, '+_defaultHeight + 'px, 50px)'});
+                $j('.visual_bg .v3').clearQueue().animate({'clip' : 'rect(0px, '+ ( _defaultWidth + _gapX2 + 1 ) +'px, '+_defaultHeight + 'px, 0px)'});
+                $j('.visual_bg > .v4').clearQueue().animate({'clip' : 'rect(0px, '+ ( _defaultWidth + _defaultGap*2 ) +'px, '+_defaultHeight + 'px, ' + (_gapX3-1) +'px)'});
+                //$j('.visual_des .des_txt').css('margin-left','5vw');
+                $j('.visual_des .v4 .des_txt').clearQueue().animate({'margin-left':'5vw'});
+                //$j('.visual_des .arrow img').attr('src','img/arrow.png');
+                //$j('.visual_des .v3 .arrow img').attr('src','img/arrow2.png');
+                // 반투명 사각형
+                $j('.bg_color').hide();
+                $j('.visual_bg .v3 .bg_color').fadeIn();
+            }
+            else
+            {
+                $j('.visual_bg .v3').clearQueue().animate({'clip' : 'rect(0px, '+ ( _defaultWidth ) +'px, '+_defaultHeight + 'px, ' + _defaultGap +'px)'});
+                $j('.visual_bg .v4').clearQueue().animate({'clip' : 'rect(0px, '+ ( _defaultWidth + _gapX2 ) +'px, '+_defaultHeight + 'px, ' + '0px)'});
+                $j('.visual_des .des_txt').clearQueue().animate({'margin-left':'5vw'});
+                //$j('.visual_des .arrow img').attr('src','img/arrow.png');
+                //$j('.visual_des .v4 .arrow img').attr('src','img/arrow2.png');
+                // 반투명 사각형
+                $j('.bg_color').hide();
+                $j('.visual_bg .v4 .bg_color').fadeIn();
+            }
+        }
+
+        function m_width_out( $this ){
+            var _currIndex = $this.index();
+
+            $j('.visual_bg > div').not('.first, .last').clearQueue().animate({'clip':'rect(0px, '+ (_defaultWidth + 100) +'px, '+_defaultHeight + 'px, ' + _defaultGap + 'px)'});
+            $j('.visual_bg > .first').clearQueue().animate({'clip':'rect(0px, '+ (_defaultWidth+_defaultGap*2) +'px, '+_defaultHeight + 'px, ' +  '0px)'});
+            $j('.visual_bg > .last').clearQueue().animate({'clip':'rect(0px, '+ (_defaultWidth+_defaultGap*2) +'px, '+_defaultHeight + 'px, ' +  (_defaultGap*2)  + 'px)'});
+            //$j('.visual_des .arrow img').attr('src','img/arrow.png');
+            $j('.visual_des .des_txt').clearQueue().animate({'margin-left':'3vw'});
+            $j('.bg_color').hide();
+            
+        }
+
+
+        function getStyle(elem, name) {
+            return (elem.currentStyle && elem.currentStyle[name]) || elem.style[name];
+        }
+
+        function getClip(elem) {
+            var cssClip = jQuery(elem).css('clip') || '';
+
+            if (!cssClip) {
+                // Try to get the clip rect another way for IE8.
+                // This is a workaround for jQuery's css('clip') returning undefined
+                // when the clip is defined in an external stylesheet in IE8. -JPOEHLS
+                var pieces = {
+                    top: getStyle(elem, 'clipTop'),
+                    right: getStyle(elem, 'clipRight'),
+                    bottom: getStyle(elem, 'clipBottom'),
+                    left: getStyle(elem, 'clipLeft')
+                };
+
+                if (pieces.top && pieces.right && pieces.bottom && pieces.left) {
+                    cssClip = 'rect(' + pieces.top + ' ' + pieces.right + ' ' + pieces.bottom + ' ' + pieces.left + ')';
+                }
+            }
+
+            // Strip commas and return.
+            return cssClip.replace(/,/g, ' ');
+        }
+
+        jQuery.fx.step.clip = function (fx) {
+            if (fx.pos === 0) {
+                var cRE = /rect\(([0-9\.]{1,})(px|em)[,]?\s+([0-9\.]{1,})(px|em)[,]?\s+([0-9\.]{1,})(px|em)[,]?\s+([0-9\.]{1,})(px|em)\)/;
+
+                fx.start = cRE.exec(getClip(fx.elem));
+                if (typeof fx.end === 'string') {
+                    fx.end = cRE.exec(fx.end.replace(/,/g, ' '));
+                }
+            }
+            if (fx.start && fx.end) {
+                var sarr = new Array(), earr = new Array(), spos = fx.start.length, epos = fx.end.length,
+                emOffset = fx.start[ss + 1] == 'em' ? (parseInt(j(fx.elem).css('fontSize')) * 1.333 * parseInt(fx.start[ss])) : 1;
+                for (var ss = 1; ss < spos; ss += 2) { sarr.push(parseInt(emOffset * fx.start[ss])); }
+                for (var es = 1; es < epos; es += 2) { earr.push(parseInt(emOffset * fx.end[es])); }
+                fx.elem.style.clip = 'rect(' +
+                parseInt((fx.pos * (earr[0] - sarr[0])) + sarr[0]) + 'px ' +
+                parseInt((fx.pos * (earr[1] - sarr[1])) + sarr[1]) + 'px ' +
+                parseInt((fx.pos * (earr[2] - sarr[2])) + sarr[2]) + 'px ' +
+                parseInt((fx.pos * (earr[3] - sarr[3])) + sarr[3]) + 'px)';
+            }
+        }
+    });
+
+    </script>
+    </body>
+    </html>
